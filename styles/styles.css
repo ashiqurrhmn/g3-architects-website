@@ -89,3 +89,13 @@
     width: 100%;
     margin-bottom: 45px;
 }
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+    .brand{
+        margin-bottom: 50px;
+    }
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
